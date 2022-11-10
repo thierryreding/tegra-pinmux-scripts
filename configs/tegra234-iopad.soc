@@ -1,0 +1,20 @@
+iopads = (
+        # name         DPD  request status  voltage
+        ("csia",         0, 0xe0c0, 0xe0c4, None),
+        ("csib",         1, 0xe0c0, 0xe0c4, None),
+        ("hdmi-dp0",     0, 0xe0d0, 0xe0d4, None),
+        ("csic",         2, 0xe0c0, 0xe0c4, None),
+        ("csid",         3, 0xe0c0, 0xe0c4, None),
+        ("csie",         4, 0xe0c0, 0xe0c4, None),
+        ("csif",         5, 0xe0c0, 0xe0c4, None),
+        ("ufs",          0, 0xe064, 0xe068, None),
+        ("edp",          1, 0xe05c, 0xe060, None),
+        ("sdmmc1-hv",    0, 0xe054, 0xe058,    4),
+        ("sdmmc3-hv", None,   None,   None,    6),
+        ("audio-hv",  None,   None,   None,    1),
+        ("ao-hv",     None,   None,   None,    0),
+        ("csig",         6, 0xe0c0, 0xe0c4, None),
+        ("csih",         7, 0xe0c0, 0xe0c4, None),
+    )
+
+# vim: ft=python
